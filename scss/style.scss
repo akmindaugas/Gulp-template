@@ -29,20 +29,4 @@ $img-4: url(../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg);
 
 
 
-  nav{
-    background: red;
-  
-    justify-content: space-around;
-    line-height: 50px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    @include flex-center;
-
-
-    a{
-      text-decoration:none ;
-color: black;
-    }
-  }
 
