@@ -1,0 +1,47 @@
+@import "general";
+@import "variables";
+@import "mixins";
+@import "images";
+
+// eili6kumas svarbu!!!
+
+
+
+
+
+$img-1: url(../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg);
+$img-2: url()
+$img-3: url(../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg);
+$img-4: url(../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg);
+
+
+@mixin img-style($color) {
+      background: url("../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid pink;
+  
+  }
+
+
+
+
+
+
+  nav{
+    background: red;
+  
+    justify-content: space-around;
+    line-height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    @include flex-center;
+
+
+    a{
+      text-decoration:none ;
+color: black;
+    }
+  }
+

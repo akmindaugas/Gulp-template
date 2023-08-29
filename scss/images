@@ -1,0 +1,61 @@
+.images {
+display: flex;
+gap: 20px;
+max-width: 1000px;
+margin: auto;
+flex-wrap: wrap;
+width: 90%;
+justify-content: center;
+align-items: center;
+
+.img{
+width: 200px;
+height: 200px;
+background: yellow;
+color: black;
+border-radius: 10px;
+
+&::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: yellowgreen;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+&::hover p{
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+.img-1{
+ @include img-style($img-1);
+}
+
+.img-2{
+  @include img-style($img-2); 
+}
+
+.img-3{
+  background: url("../images/neom-nMzbnMzMjYU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-4{
+  background: url("../app/images/rafaella-waasdorp-wBp99TlR33s-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+}
+
+}
