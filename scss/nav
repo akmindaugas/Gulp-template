@@ -1,16 +1,21 @@
   nav{
+    z-index: 999;
     background: red;
-  
+display: flex;  
     justify-content: space-around;
     line-height: 50px;
     width: 100%;
     position: fixed;
     top: 0;
-    @include flex-center;
+    
 
 
-    a{
+    a {
       text-decoration:none ;
 color: black;
+transition: 0.3s;
+    }
+    &:hover{
+      color: black;
     }
   }

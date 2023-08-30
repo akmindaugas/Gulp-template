@@ -1,4 +1,4 @@
-@media (max-widt 768px){
+@media (max-width 768px){
     .images .img{
         width: 100%;
     }

@@ -1,11 +1,11 @@
-@mixin: flex-center {
+@mixin flex-center {
 display: flex;
 align-items: center;
 justify-content: center;
-  
 }
+
 @mixin img-style($color) {
-    background: url("../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg");
+ background: url("../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg");
   background-size: cover;
   background-position: center;
   border: 3px solid pink;
