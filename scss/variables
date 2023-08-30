@@ -6,3 +6,7 @@ body {
 
 }
 
+$img-1: url(../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg);
+$img-2: url()
+$img-3: url(../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg);
+$img-4: url(../images/felix-fuchs-f6qeBeso2sg-unsplash.jpg);
